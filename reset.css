@@ -1,0 +1,60 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: Arial, sans-serif; /* Altere para a fonte de sua preferência */
+  line-height: 1.5;
+  text-size-adjust: 100%; /* Garante ajuste de texto em dispositivos móveis */
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%; /* Garante que imagens e vídeos sejam responsivos */
+  height: auto;
+}
+
+input, button, textarea, select {
+  font: inherit; /* Garante que esses elementos usem a mesma fonte do documento */
+}
+
+button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul, ol {
+  list-style: none; /* Remove bullets e números de listas */
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+blockquote, q {
+  quotes: none; /* Remove aspas automáticas */
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+}
+
+:focus {
+  outline: none; /* Remove outline padrão */
+}
+
+:focus-visible {
+  outline: 2px solid #000; /* Substitua por uma borda de acessibilidade, se necessário */
+}

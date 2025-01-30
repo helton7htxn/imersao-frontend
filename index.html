@@ -6,9 +6,11 @@
     <title>Imersão | Spotify</title>
     <link rel="shortcut icon" href="assets/icons/favicon.png" type="image/x-icon">
 
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/var.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/main-content.css">
+    
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css" integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous" />
 
@@ -67,6 +69,41 @@
             </div>
         </div>
     </div>
-</body>
 
+    <main>
+        <div class="main-container">
+            <nav class="header-navigation">
+                <div class="navigation">
+                    <button class="arrow-left">
+                        <img src="assets/icons/small-left.png" alt="Seta para esquerda">
+                    </button>
+                    <button class="arrow-right">
+                        <img src="assets/icons/small-right.png" alt="Seta para direita">
+                    </button>
+                </div>
+                    <div class="header-search">
+                        <img src="assets/icons/search.png" alt="">
+                        <input id="search-imput" type="" maxlength="120" placeholder="O que você quer ouvir?">
+                    </div>
+                    <div class="header-login">
+                        <button class="subscribe">Inscreva-se</button>
+                        <button class="login">Entrar</button>
+                    </div>
+                </nav>
+           </div>
+        </main>
+
+        <footer class="disclaimer-premium">
+            <div class="text">
+                <p class="disclaimer-premium__title">Testar o Premium de graça</p>
+                <p class="disclaimer-premium__subtitle">
+                Inscreva-se para curtir música ilimitada e podcasts só com alguns
+                anúncios. Não precisa de cartão de crédito.
+                </p>
+            </div>
+            <div class="button">
+                <button type="button">Inscreva-se grátis</button>
+            </div>
+        </footer>
+</body>
 </html>

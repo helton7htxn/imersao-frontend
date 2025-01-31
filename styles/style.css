@@ -25,7 +25,7 @@ body{
     background-color: #121212;
     display: flex;
     border-radius: 8px;
-    padding: 16px 0px 0px 16px;
+    padding: 16px 0 0 16px;
 }
 
 .sidebar-navegation .logo img{
@@ -35,6 +35,10 @@ body{
 .sidebar nav ul{
     margin-top: 20px;
     padding: 0px 20px 10px 20px;
+}
+
+.sidebar ul li{
+    padding: 10px 0;
 }
 
 .sidebar nav ul li {
@@ -71,7 +75,7 @@ body{
     margin-right: 10px;
     color: #b3b3b3;
     background: transparent;
-    border: 0;
+    border: 0px;
     font-size: 15px;
     font-weight: 700;
     text-align: center;
@@ -181,7 +185,6 @@ body{
     padding: 15px 40px;
     display: flex;
     justify-content: space-between;
-    font-weight: bold;
 }
 .disclaimer-premium .text {
    flex-shrink: 0;
@@ -205,7 +208,7 @@ body{
     color: #000000;
     font-size: 16px;
     font-weight: 750;
-    padding: 8px 30px;
+    padding: 14px 30px;
     border: 0px;
     border-radius: 40px;
     cursor: pointer;

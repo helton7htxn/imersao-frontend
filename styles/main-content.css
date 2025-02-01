@@ -144,7 +144,7 @@
 
 .cards{
     position: relative;
-    width: 325px;
+    width: 310px;
     height: 200px;
     overflow: hidden;
     border-radius: 15px;
@@ -212,7 +212,7 @@
     bottom: 0;
     height: auto;
     width: 200px;
-    transform: rotate(25deg) translate(18%, -2%);
+    transform: rotate(20deg) translate(18%, -2%);
 }
 
 .artist{

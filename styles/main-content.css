@@ -28,11 +28,12 @@
 
 .arrow-left,
 .arrow-right{
+    margin-top: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 32px;
-    height: 32px;
+    width: 35px;
+    height: 35px;
     background-color: #131313;
     background-color: rgba(0, 0, 0, 07);
     border-radius: 50%;
@@ -59,7 +60,7 @@
 .header-search img{
     width: 16px;
     height: 16px;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 .header-search input{
@@ -138,15 +139,15 @@
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
     grid-gap: 16px;
     gap: 16px;
-    margin-bottom: 16px;
+    margin-bottom: 80px;
 }
 
 .cards{
     position: relative;
-    width: 350px;
-    height: 250px;
+    width: 325px;
+    height: 200px;
     overflow: hidden;
-    border-radius: 8px;
+    border-radius: 15px;
 }
 
 .cards span{
@@ -158,11 +159,11 @@
 }
 
 .card1{
-    background-color: rgb(0, 100, 80);
+    background-color: rgb(3, 77, 62);
 }
 
 .card2{
-    background-color: rgb(132, 0, 231);
+    background-color: rgb(87, 7, 148);
 }
 .card3{
     background: rgb(30, 50, 100);
@@ -171,13 +172,13 @@
     background: rgb(140, 25, 50);
 }
 .card5{
-    background: rgb(232, 17, 91);
+    background: rgb(160, 7, 61);
 }
 .card6{
-    background: rgb(83, 122, 161);
+    background: rgb(39, 64, 88);
   }
 .card7{
-    background: rgb(142, 102, 172);
+    background: rgb(112, 80, 136);
 }
 .card8{
     background: rgb(20, 138, 8);
